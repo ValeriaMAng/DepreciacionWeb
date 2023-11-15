@@ -1,4 +1,4 @@
-# Depreciación Método de la Línea Recta Web
+# Depreciación Método de la Línea Recta Web ✨
 
--- Manjarrez Angeles Valeria Fernanda
--- Sánchez Reza Neider
+- Manjarrez Angeles Valeria Fernanda
+- Sánchez Reza Neider
