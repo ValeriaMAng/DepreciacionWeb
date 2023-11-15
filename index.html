@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK A BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Link a CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Link a Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap" rel="stylesheet">
+    <title>Depreciación Método de Línea Recta</title>
+</head>
+
+<body>
+    <div class="header">
+		<div class="row-header">
+			<div class="column header-logo">
+				<a href="https://www.encit.unam.mx/" target="_blank"><img src="img/logo.png" height="120"/></a>
+			</div>
+			<div class="column align-right">
+				<div class="tab">
+					<a href="index.html">
+						<button class="tablink">Depreciación</button>
+					</a>
+					<a href="http://sistemasusables.com/2023mat/aplicaciones/logaritmo/inicio.html" target="_blank">
+						<button class="tablink">Logaritmo</button>
+					</a>
+					<a href="http://sistemasusables.com/2023mat/aplicaciones/sistema1/inicio.html" target="_blank">
+						<button class="tablink">Interés Compuesto</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<section class="title">
+			<h1>Depreciación: Método de la línea recta</h1>
+		</section>
+
+		<div class="contenedor shadow-sm">
+			<div class="row">
+				<div class="col-9">
+					<h3>Proporciona los datos correspondientes para la depreciación anual:</h3>
+					<p class="texto"> Se calculará la depreciación para un periodo de 4 años junto con su valor contable.</p>
+					<form class="formulario" action="in1.php" method="post">
+						<fieldset>
+							<div class="form-labels">
+								<p><label for="maquina">Valor de la Máquina: </label></p>
+								<p><label for="rescate">Valor de Rescate: </label></p>
+							</div>
+							<div>
+								<p>
+									<select id="maquina" name="maquina">
+										<option value=80000> 80000 </option> 
+										<option value=90000> 90000 </option>
+										<option value=100000> 100000 </option>
+										<option value=110000> 110000 </option>
+										<option value=120000> 120000 </option> 
+										<option value=130000> 130000 </option>
+										<option value=140000> 140000 </option>
+										<option value=150000> 150000 </option> 
+										<option value=160000> 160000 </option>
+										<option value=170000> 170000 </option>
+										<option value=180000> 180000 </option> 
+										<option value=190000> 190000 </option>
+									</select>
+								</p>
+								<p>
+									<select id="rescate" name="rescate">
+										<option value=10000> 10000 </option>
+										<option value=20000> 20000 </option> 
+										<option value=30000> 30000 </option>
+										<option value=40000> 40000 </option>
+										<option value=50000> 50000 </option> 
+										<option value=60000> 60000 </option>
+									</select>
+								</p>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="col-3">
+					<img src="img/inicio.png" class="rounded float-right" alt="Main image" height="200">
+				</div>
+			</div>
+		</div>
+
+		<div class="button">
+			<a href="./pages/añouno.html"><button class="boton-envio" type="submit">Calcular</button></a>
+		</div>
+	</main>
+
+	<!--Script Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>

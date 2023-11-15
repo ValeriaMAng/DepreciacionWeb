@@ -1,0 +1,149 @@
+body{
+    background-color: #FAFAFA;
+    font-family: 'Cambay', sans-serif;
+}
+    
+.header{
+    background-color: #004B84;
+    width: 100%;
+    margin: 0px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    margin-right: 20px;
+}
+
+.column{
+    flex: 1;
+}
+
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.tab{
+    overflow: hidden;
+    border: none;
+    border-radius: 8px;
+    background-color: #003B68;
+}
+
+.tab button{
+    color: white;
+    margin: auto;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 33px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.tab button:hover {
+    background-color: #0060A9;
+}
+
+.title h1{
+    text-align: center;
+    color: #004B84; 
+    margin: 2rem;
+    font-weight: 700;
+}
+
+.contenedor{
+    margin: auto;
+    background-color: #fff;
+    width: 85%;
+    border: 1px solid #ADADAD;
+    padding: 15pt;
+    border-radius: 5px;
+}
+
+.formulario{
+    margin-top: 35px
+}
+
+.formulario label{
+    font-weight: 700;
+    font-size: large;
+}
+
+fieldset {
+    min-width: 200px;
+    display: flex;
+}
+
+fieldset p {
+    text-align: right;
+}
+
+.form-labels {
+    margin-right: 1rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-envio{
+    background-color: #897600;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+
+.h-full {
+    height: 100%;
+}
+
+.table-content {
+    display: flex;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.destacado{
+    color: #004B84; 
+}
+
+.texto{
+    margin-top: 20px;
+}
